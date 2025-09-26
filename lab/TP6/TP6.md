@@ -116,7 +116,7 @@ Vérifier que le déploiement est OK. Accéder au logs du pods depuis l'interfac
 
 Depuis les écrans de gestion des conteneurs, lancer quelques conteneurs avec réplication.
 
-Analyser la répartition de la charge, puis couper le worker2 (vagrant halt).
+Analyser la répartition de la charge, puis couper le worker2 (vagrant halt worker2).
 
 Vérifier que les réplicas ont bien été attribués au worker1.
 
