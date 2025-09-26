@@ -72,6 +72,12 @@ spec:
 kubectl apply -f frontend-client.yaml
 ```
 
+Exposer frontend et backend avec un service
+
+```bash
+kubectl expose pod backend --port 80 --namespace backend
+```
+
 ---
 
 ## 2️⃣ Tester la communication entre pods
